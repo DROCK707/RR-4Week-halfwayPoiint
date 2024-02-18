@@ -1,0 +1,14 @@
+#heading1, #heading2, #heading3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-color: red;
+    padding: 5px
+}
+
+.section1, .section2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}

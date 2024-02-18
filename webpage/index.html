@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rinse and Repeat Backend and Frontend coding</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <h1>
+        <p id="heading1">Wedding of Him and Her</p>
+    </h1>
+    <h2>
+        <p id="heading2">Dope winery venue</p>
+    </h2>
+    <h3>
+        <p id="heading3">Dress comfortable</p>
+    </h3>
+    <section class="section1">
+        <div id="fortuneCookie">
+            <button>Fortune</button>
+        </div>
+        <div id="deckOfCards">
+            <button>Draw a card</button>
+        </div>
+        <div id="seatAssignment">
+            <button>Get seat assignment</button>
+        </div>
+        <div id="drinkMenu">
+            <button>Get list of drinks</button>
+        </div>
+    </section>
+    <br><br><br>
+    <section class="section2">
+
+        <form id="rsvpForm">
+            <input id="name" type="text" placeholder="Name for RSVP" />
+
+            <input id="allergy" type="text" placeholder="Any Allergies?" /><br><br>
+            <label>Party Size?</label>
+            <select id="partySize">
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+            
+            <button type="submit">SUBMIT</button>
+            <br><br><br>
+
+            <div class="allAttendees">
+                <button>See list of all attendees</button>
+            </div>
+
+        </form>
+    </section>
+
+
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
